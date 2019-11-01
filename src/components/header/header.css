@@ -27,20 +27,3 @@ header {
     justify-content: space-around;
 }
 
-
-.header-button {
-    background-color: #282c34;
-    color: lightgray;
-    width: 100px;
-    height: 30px;
-    border: 2px crimson;
-    font-family: 'Arvo', sans-serif;
-    margin: 10px;
-    padding: auto;
-    border-radius: 5px;
-    transition: all .5s ease;
-}
-.header-button:hover {
-    cursor: pointer;
-    box-shadow: 4px 4px slategray;
-}
