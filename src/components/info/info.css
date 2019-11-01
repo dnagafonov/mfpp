@@ -1,0 +1,14 @@
+.welcome-message img {
+    position: relative;
+    width: 100%;
+}
+.welcome-message div.message-text {
+    position: absolute;
+    top: 750px;
+    left: 730px;
+    width: 100%;
+    font-family: 'Arvo', sans-serif;
+    font-size: 50px;
+    color: crimson;
+    text-shadow: 3px 0 0 #282c34;
+}

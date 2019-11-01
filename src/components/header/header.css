@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'Yourever';
-    src: local('Yourever'), url(../fonts/Yourever.otf) format('truetype');
-}
 
 header {
     background-color: #282c34;

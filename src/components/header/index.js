@@ -12,20 +12,18 @@ export default class Header extends React.Component {
                         brand
                     </div>
                 </div>
-                <div className='header-buttons-group'>
+                <nav className='header-buttons-group'>
                     <button className='custom-button'>
-                        Info
+                        about me
                     </button>
                     <button className='custom-button'>
-                        Album
+                        album
                     </button>
                     <button className='custom-button'>
-                        Contacts
+                        contacts
                     </button>
-                </div>
+                </nav>
             </header>
-
-
         );
     };
 }
