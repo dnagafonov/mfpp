@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Yourever';
+    src: local('Yourever'), url(../fonts/Yourever.otf) format('truetype');
+}
+
+header {
+    background-color: #282c34;
+    height: auto;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.header-title-text {
+    font-size: 60px;
+    color: crimson;
+    font-family: Yourever, serif;
+}
+
+.header-buttons-group {
+    background-color: crimson;
+    display: flex;
+    /* Then we define the flow direction and if we allow the items to wrap */
+    flex-flow: row wrap;
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+}
+
+
+.header-button {
+    background-color: #282c34;
+    color: lightgray;
+    width: 100px;
+    height: 30px;
+    border: 2px crimson;
+    font-family: 'Arvo', sans-serif;
+    margin: 10px;
+    padding: auto;
+    border-radius: 5px;
+    transition: all .5s ease;
+}
+.header-button:hover {
+    cursor: pointer;
+    box-shadow: 4px 4px slategray;
+}
